@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>charles omwa</title>
+  <link rel="shortcut icon" href="./assets/me.ico" type="image/x-icon" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <!-- Bootstrap Icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css" />
+  <!-- Animate CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!-- SplideJs Styles -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.2.1/dist/css/splide.min.css" />
+  <!-- App Styles -->
+  <link rel="stylesheet" href="styles/app.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="animate__animated animate__slideInDown">
+      <div class="container">
+        <nav class="navigation">
+          <ul>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <a class="btn btn--main" href="assets/charles-omwa_resume.pdf" download><i class="bi bi-download"></i> Resume</a>
+        </nav>
+
+        <h1 class="header__logo">
+          <a href="/">
+            <span>Charles</span>
+            <span>Omwa</span>
+          </a>
+        </h1>
+
+        <div class="header__contact">
+          <a href="mailto:omwacharles@gmail.com">omwacharles@gmail.com</a>
+          <a class="btn btn--light" href="assets/charles-omwa_resume.pdf" download>
+            <i class="bi bi-download"></i> Resume
+          </a>
+        </div>
+
+        <div class="header__mobile">
+          <button id="navigation-button">
+            <i class="bi bi-list"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero__wrapper">
+        <div class="hero__img">
+          <img src="assets/me.jpeg" alt="Profile Picture" />
+        </div>
+        <h1 class="hero__title animate__animated animate__slideInUp">
+          Software Developer <br />
+        </h1>
+        <p class="hero__content animate__animated animate__slideInUp">
+          I am a Self-driven, quick starter, passionate programmer with a curious mind who enjoys solving a complex and challenging real-world problems.
+        </p>
+        <ul class="social animate__animated animate__slideInLeft">
+          <li>
+            <a href="https://www.linkedin.com/in/charles-omwa-620324163/"><i class="bi bi-linkedin"></i></a>
+          </li>
+          <li>
+            <a href="https://github.com/charlie-black"><i class="bi bi-github"></i></a>
+          </li>
+          <!-- <li>
+              <a href="#"><i class="bi bi-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="bi bi-facebook"></i></a>
+            </li> -->
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section__header">
+        <h2 class="section__title">About</h2>
+        <p class="section__subtitle">Few things about me</p>
+      </div>
+      <div class="about">
+        <h3 class="about__intro">👋 Hi, I'm Charles Omwa</h3>
+        <p class="about__bio">
+          >Software Engineering graduate
+          interested in a challenging
+          career path centered around software development.
+          I have knowledge of HTML, CSS, JavaScript,Python with a strong working
+          proficiency in Dart with django rest Framework for
+          full stack android and iOS development. Looking to
+          specialize in the Android and iOS development niche.
+        </p>
+        <p>> I enjoy the simple things, like a cup of tea by the fireplace..
+          (If i had one)</p>
+        <a class="about__link" href="#contact">Contact Me<i class="bi bi-arrow-right"></i></a>
+
+        <h4 class="about__skillsTitle">Skills</h4>
+        <p>Languages</p>
+        <ul class="about__skillsList">
+          <li class="btn btn--light">Dart</li>
+          <li class="btn btn--light">Kotlin</li>
+          <li class="btn btn--light">Swift</li>
+          <li class="btn btn--light">JavaScript</li>
+          <li class="btn btn--light">Python</li>
+          <li class="btn btn--light">HTML/CSS/SCSS/Bootstrap
+          <li>
+          <li class="btn btn--light">Bash</li>
+        </ul>
+        <br>
+        <p>Frameworks</p>
+        <ul class="about__skillsList">
+          <li class="btn btn--light">Flutter</li>
+          <li class="btn btn--light">React.js</li>
+          <li class="btn btn--light">Bootstrap
+          <li>
+          <li class="btn btn--light">Django</li>
+        </ul>
+        <br>
+        <p>Tools</p>
+        <ul class="about__skillsList">
+          <li class="btn btn--light">Linux</li>
+          <li class="btn btn--light">Git</li>
+          <li class="btn btn--light">Heroku</li>
+          <li class="btn btn--light">AWS(EC2)</li>
+          <li class="btn btn--light">MongoDB</li>
+          <li class="btn btn--light">PostgreSQL</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="section animate__animated animate__slideInUp" id="portfolio">
+    <div class="container">
+      <div class="section__header section__header">
+        <h2 class="section__title">Projects</h2>
+        <p class="section__subtitle">Some of the stuff I've worked on</p>
+      </div>
+      <div class="portfolio">
+        <div class="portfolio__box">
+          <img class="portfolio__img" src="assets/clouduka.png" alt="Portfolio Items" />
+          <div class="portfolio__info">
+            <h3 class="portfolio__title">Clouduka Mobile application</h3>
+            <p class="portfolio__content">
+              ClouDuka is the ecommerce platform that is geared to make sure that all merchants have an all in one platform that makes conducting their business easier. ClouDuka is a commerce platform that allows anyone to set up an online store and sell their products.
+            </p>
+            <br>
+            <ul class="about__skillsList">
+              <li class="btn btn--light">Flutter</li>
+              <li class="btn btn--light">Laravel</li>
+              <li class="btn btn--light">MYSQL</li>
+            </ul>
+            <a class="portfolio__link" href="https://play.google.com/store/apps/details?id=clouduka.base.clouduka_app" target="_blank">
+              <i class="bi bi-arrow-up-right-circle-fill"></i>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio__box">
+          <img class="portfolio__img" src="assets/odcen.jpeg" alt="Portfolio Items" />
+          <div class="portfolio__info">
+            <h3 class="portfolio__title">Odcen Shopping Plattform</h3>
+            <p class="portfolio__content">
+              An online Shopping platfform that gives you a wide variety of Handcrafted leather goods for your everyday adventures.The platform is designed to be easy to use ,
+              shop and make secure payments for the products sold using paypal
+
+            </p>
+            <br>
+            <ul class="about__skillsList">
+              <li class="btn btn--light">Django</li>
+              <li class="btn btn--light">JavaScript
+              <li>
+              <li class="btn btn--light">Bootstrap</li>
+            </ul>
+            <a class="portfolio__link" href="https://odcen.com" target="_blank">
+              <i class="bi bi-arrow-up-right-circle-fill"></i>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio__box">
+          <img class="portfolio__img" src="assets/baraza.png" alt="Portfolio Items" />
+          <div class="portfolio__info">
+            <h3 class="portfolio__title">Baraza Point of Sale Mobile Application</h3>
+            <p class="portfolio__content">
+              Baraza POS is a simple system that records your sales and purchase activities and monitors your stock .
+              The information collected is used to give an accurate state of your business profits and losses, offer better stock level control ,
+              reduce loss through pilferage or poor accounting and track employee sales performance while offering employee accountability..
+            </p>
+            <br>
+            <ul class="about__skillsList">
+              <li class="btn btn--light">Java</li>
+              <li class="btn btn--light">Spring Boot
+              <li class="btn btn--light">PostgreSQL</li>
+            </ul>
+            <a class="portfolio__link" href="https://play.google.com/store/apps/details?id=com.dewcis.pos" target="_blank">
+              <i class="bi bi-arrow-up-right-circle-fill"></i>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio__box">
+          <img class="portfolio__img" src="assets/hub.png" alt="Portfolio Items" />
+          <div class="portfolio__info">
+            <h3 class="portfolio__title">Financial Hub</h3>
+            <p class="portfolio__content">
+              Financial hub is a company that is focused on training, funding, and mentoring forex traders.
+              The company was started in 2018 by three young, passionate forex traders out of a two-bedroom apartment in Nairobi.
+            </p>
+            <br>
+            <ul class="about__skillsList">
+              <li class="btn btn--light">Django Rest Framework</li>
+              <li class="btn btn--light">React.js</li>
+              <li class="btn btn--light">Heroku</li>
+              <li class="btn btn--light">PostgreSQL</li>
+            </ul>
+            <a class="portfolio__link" href="https://financialhubfx.com" target="_blank">
+              <i class="bi bi-arrow-up-right-circle-fill"></i>
+            </a>
+          </div>
+        </div>
+        <!-- <div class="portfolio__box">
+          <img class="portfolio__img" src="assets/portfolio-04.jpg" alt="Portfolio Items" />
+          <div class="portfolio__info">
+            <h3 class="portfolio__title">Three dots</h3>
+            <p class="portfolio__content">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto dignissimos
+              pariatur dolor vitae assumenda, porro quaerat corporis quos placeat a alias
+              molestiae, totam, dolore cum perspiciatis. Voluptate dolorem doloremque nobis.
+            </p>
+            <a class="portfolio__link" href="#">
+              <i class="bi bi-arrow-up-right-circle-fill"></i>
+            </a>
+          </div>
+        </div> -->
+      </div>
+      <div class="section__footer">
+        <a href="https://github.com/charlie-black">
+          More Projects
+          <i class="bi bi-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="section animate__animated animate__slideInUp" id="portfolio">
+    <div class="container">
+      <div class="section__header section__header">
+        <h2 class="section__title">Web Dev work</h2>
+        <p class="section__subtitle">Some of the websites I've built</p>
+      </div>
+      <div class="portfolio">
+        <div class="portfolio__box">
+          <img class="portfolio__img" src="assets/dewcis.jpeg" alt="Portfolio Items" />
+          <div class="portfolio__info">
+            <h3 class="portfolio__title">Dewcis Solutions ltd</h3>
+            <p class="portfolio__content">
+              Informational Website for Dewcis Solutions Software Company.
+            </p>
+            <br>
+            <ul class="about__skillsList">
+            </ul>
+            <a class="portfolio__link" href="https://www.dewcis.com/" target="_blank">
+              <i class="bi bi-arrow-up-right-circle-fill"></i>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio__box">
+          <img class="portfolio__img" src="assets/code.jpeg" alt="Portfolio Items" />
+          <div class="portfolio__info">
+            <h3 class="portfolio__title">Code Pamoja Institute</h3>
+            <p class="portfolio__content">
+              Website Code Pamoja Institute of Professional Studies which is a private institution that offers a wide range of programmes in the field of computer science and technology.
+            </p>
+            <a class="portfolio__link" href="https://codepamoja.org/" target="_blank">
+              <i class="bi bi-arrow-up-right-circle-fill"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <!-- <section class="container">
+    <div class="section" id="testimonials">
+      <div class="section__header section__header--center">
+        <h2 class="section__title">People Says</h2>
+        <p class="section__subtitle">What others think about me</p>
+      </div>
+      <div class="testimonials">
+        <div class="splide">
+          <div class="splide__track">
+            <div class="splide__list">
+              <div class="testimonials__box splide__slide">
+                <span class="testimonials__sign">
+                  <i class="bi bi-chat-square-quote"></i>
+                </span>
+                <p class="testimonials__quotes">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, maxime
+                  corporis deleniti distinctio ullam, accusamus debitis ratione unde rerum illo
+                  sit laudantium molestiae ipsum praesentium neque sed perferendis! Blanditiis,
+                  debitis.
+                </p>
+                <div class="testimonials__author">
+                  <div class="testimonials__authorInfo">
+                    <h4>Dennis Ivy</h4>
+                    <p>Instructor & Youtuber</p>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonials__box splide__slide">
+                <span class="testimonials__sign">
+                  <i class="bi bi-chat-square-quote"></i>
+                </span>
+                <p class="testimonials__quotes">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, maxime
+                  corporis deleniti distinctio ullam, accusamus debitis ratione unde rerum illo
+                  sit laudantium molestiae ipsum praesentium neque sed perferendis! Blanditiis,
+                  debitis.
+                </p>
+                <div class="testimonials__author">
+                  <div class="testimonials__authorInfo">
+                    <h4>Shahriar Parvez</h4>
+                    <p>Web Developer & UI Designer</p>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonials__box splide__slide">
+                <span class="testimonials__sign">
+                  <i class="bi bi-chat-square-quote"></i>
+                </span>
+                <p class="testimonials__quotes">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, maxime
+                  corporis deleniti distinctio ullam, accusamus debitis ratione unde rerum illo
+                  sit laudantium molestiae ipsum praesentium neque sed perferendis! Blanditiis,
+                  debitis.
+                </p>
+                <div class="testimonials__author">
+                  <div class="testimonials__authorInfo">
+                    <h4>Praveen M.</h4>
+                    <p>Python, Django Developer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- Contact Section -->
+  <section class="section" id="contact">
+    <div class="section__header section__header--center">
+      <h2 class="section__title">Contact Me</h2>
+      <p class="section__subtitle">Reach out to me, 24/7</p>
+    </div>
+    <div class="container">
+      <div class="contact">
+        <div class="contact__info">
+          <p>Call Me: <a href="tel:+254704333650">+254704333650</a></p>
+          <p>Email: <a href="mailto:omwacharles@gmail.com?subject=Inquiry">omwacharles@gmail.com<a>
+                <p>
+        </div>
+        <!--
+        <form class="contact__form" action="#" method="post">
+          <div class="contact__fields">
+            <label for="name">Name</label>
+            <input type="name" name="name" id="name" placeholder="Your Name" />
+          </div>
+          <div class="contact__fields">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Email Address" />
+          </div>
+          <div class="contact__fields">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" placeholder="Write Message..."></textarea>
+          </div>
+          <div class="contact__fields contact__fields--action">
+            <button class="btn btn--accent" type="submit">
+              Send Message <i class="bi bi-arrow-right"></i>
+            </button>
+          </div>
+        </form> -->
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__copyright">
+        <p>-2022-</p>
+      </div>
+      <div class="footer__social">
+        <ul class="social">
+          <li>
+            <a href="https://www.linkedin.com/in/charles-omwa-620324163/"><i class="bi bi-linkedin"></i></a>
+          </li>
+          <li>
+            <a href="https://github.com/charlie-black"><i class="bi bi-github"></i></a>
+          </li>
+          <!-- <li>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SplideJs v3 -->
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.2.1/dist/js/splide.min.js"></script>
+  <!-- Scroll Reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!-- App Scripts -->
+  <script src="scripts/app.js"></script>
+</body>
+
+</html>
